@@ -1,0 +1,14 @@
+{
+  "name": "take-home-botpress",
+  "version": "0.0.0",
+  "description": "Take-home-Botpress",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "hound": "^1.0.5",
+    "socket.io": "^4.4.1"
+  }
+}

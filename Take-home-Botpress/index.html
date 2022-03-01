@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>File explorer demo</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="client.css" />
+</head>
+<body>
+    <div id="fileExplorer">
+        <div class="header">File explorer</div>
+        <div class="list">Loading...</div>
+    </div>
+
+    <div id="folderTemplate" class="entry folder">
+        <a class="link" data-opened-content="+"></a>
+        <ul class="entries"></ul>
+    </div>
+    <div id="fileTemplate" class="entry file">
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+#fileExplorer {
+    font-size: 1em;
+}
+
+#fileExplorer .header {
+    font-size: 1.5em;
+    border-bottom: solid 1px black;
+    background: gray;
+    color: white;
+    padding: 2px;
+}
+
+#fileExplorer .folder > .link {
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#fileExplorer .folder > ul.entries {
+    margin: 0;
+}
+
+#fileExplorer .folder > .link::before {
+    content: attr(data-opened-content);
+    margin-right: 10px;
+}
+
+#fileExplorer .entry {
+    border-bottom: solid 1px black;
+}
+
+#fileExplorer .folder > .entries {
+    display: none;
+}
