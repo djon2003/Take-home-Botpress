@@ -6,7 +6,8 @@ This project represents a dynamic web file explorer.
 
 - Clone the repository
 - In the folder "Take-home-Botpress/Take-home-Botpress/", run **npm install**
-- In the folder "Take-home-Botpress/Take-home-Botpress/", run **node server.js "PATH/TO/FOLDER1" "PATH/TO/FOLDER2" "ETC"**
+- In the folder "Take-home-Botpress/Take-home-Botpress/", run **node server.js "test1" "test2"**
+  - The generic command is *node server.js "PATH/TO/FOLDER1" "PATH/TO/FOLDER2" "ETC"*
 - Launch a webbrowser to the URL: http://localhost:1337
 
 ## Explanations
